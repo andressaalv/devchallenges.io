@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #1e293b;
+    background-color: #f8fafc;
+    
+}
+
+.faq-container {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+}
+
+.faq-header {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background-color: #ffffff;
+}
+
+.faq-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 0.75rem;
+}
+
+.faq-header p {
+    margin: 0 auto;
+    color: #475569;
+    font-size: 1rem;
+    max-width: 32rem;
+}
+
+.faq-item {
+    margin-top: 2.5rem;
+}
+
+.faq-item h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 0.75rem;
+}
+
+.faq-item > p {
+    margin-bottom: 1rem;
+}
+
+.faq-item ol,
+.faq-item ul {
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.faq-item li {
+    margin-bottom: 0.5rem;
+}
+
+.faq-item a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+.faq-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e2e8f0;
+    margin: 2.5rem 0;
+}
+
+/* ----- Tablet (>= 1024px) ----- */
+@media (min-width: 768px) {
+    .faq-header {
+        padding: 4rem 2rem;
+    }
+    
+    .faq-header h1 {
+        font-size: 2.25rem;
+    }
+
+    .faq-container {
+        padding: 0 2rem 5rem;
+    }
+}
+
+/* ----- Desktop (>= 1350px) ----- */
+@media (min-width: 1350px) {
+
+    .faq-header {
+        padding-top: 5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .faq-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .faq-container {
+        max-width: 850px;
+        padding-bottom: 6rem;
+    }
+
+}
